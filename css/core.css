@@ -1,0 +1,622 @@
+body {
+    background: #f95833;
+    padding: 15px 0;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+.hide {
+	display: none;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+a:hover {
+    transition: all 0.4s ease 0s;
+}
+
+img.icon {
+    transition: all 0.4s ease 0s;
+	max-width: 150px;
+}
+a:hover img.icon {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  transition: all 0.4s ease 0s;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.container {
+    width: 90%;
+    padding: auto 5%;
+    max-width: 1080px;
+    min-width: 456px;
+    margin: 0 auto;
+}
+
+header {
+    background: #323a45;
+    position: relative;
+    padding-bottom: 30px;
+}
+header:after {
+    background: url("http://livedemo00.template-help.com/wt_47123/images/arrow-1.png") repeat scroll left top transparent;
+    bottom: -25px;
+    content: "";
+    height: 25px;
+    left: 50%;
+    margin-left: -24px;
+    position: absolute;
+    width: 49px;
+    z-index: 1000;
+}
+header nav {
+    width: 100%;
+    border-bottom: 1px solid #494949;
+    overflow: auto;
+}
+
+header nav ul {
+    overflow: auto;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 664px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a:hover,
+header nav ul li.active a {
+    border-bottom: 4px solid #f95833;
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+}
+
+header nav a {
+    padding: 30px;
+    color: #68707b;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 4px solid #323a45;
+    transition: all 0.2s ease 0s;
+}
+
+header h1 {
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
+    margin: 35px 0 0 0;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+header h2 {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    color: #68707b;
+    letter-spacing: 2px;
+}
+
+header .languages {
+    margin: 0 auto;
+    width: 960px;
+    overflow: auto;
+}
+
+.languages .circle {
+    border: 1px solid #494949;
+    width: 80px;
+    padding: 178px 78px 28px 78px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 20px;
+    position: relative;
+    background: #323a45;
+    color: #68707b;
+    transition: all 0.4s ease 0s;
+}
+.languages .circle:hover {
+    color: #ffffff;
+	transition: all 0.4s ease 0s;
+}
+
+.languages .html {
+	background: url('../img/html5.png') 50% 40% no-repeat;
+}
+.languages .html:hover {
+	background: url('../img/html5_on.png') 50% 43% no-repeat;
+}
+
+.languages .css {
+    left: -20px;
+	background: url('../img/css.png') 50% 40% no-repeat;
+}
+.languages .css:hover {
+	background: url('../img/css_on.png') 50% 43% no-repeat;
+}
+
+.languages .js {
+    left: -40px;
+    font-size: 17px;
+	background: url('../img/js.png') 50% 40% no-repeat;
+}
+.languages .js:hover {
+	background: url('../img/js_on.png') 50% 43% no-repeat;
+}
+
+.languages .php {
+    left: -60px;
+	background: url('../img/php.png') 50% 42% no-repeat;
+}
+.languages .php:hover {
+	background: url('../img/php_on.png') 50% 45% no-repeat;
+}
+
+.languages .circle img {
+	display: none;
+}
+
+section {
+    position: relative;
+    padding: 30px 0;
+}
+
+section:after {
+    background: url("../img/arrow1.png") repeat scroll left top transparent;
+    bottom: -25px;
+    content: "";
+    height: 25px;
+    left: 50%;
+    margin-left: -24px;
+    position: absolute;
+    width: 49px;
+    z-index: 1000;
+}
+
+.alt-color {
+    background: #323a45;
+    padding-top: 30px;
+}
+
+.alt-color section:after {
+    background: url("../img/arrow2.png") repeat scroll left top transparent;
+    bottom: -25px;
+    content: "";
+    height: 25px;
+    left: 50%;
+    margin-left: -24px;
+    position: absolute;
+    width: 49px;
+    z-index: 1000;
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.alt-color section h2 {
+    margin: 0;
+}
+
+.row {
+    overflow: auto;
+    padding: 15px 0 30px 0;
+}
+
+.col-25 {
+    width: 25%;
+    float: left;
+    padding: 50px 30px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    border-left: 1px solid #e7b573;
+    overflow: hidden;
+}
+.col-25:first-child {
+    border-left: none;
+}
+
+.col-25 h3 {
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 90px;
+    margin: 0;
+    line-height: 65px;
+    max-height: 370px;
+    overflow: hidden;
+}
+
+.col-25 h3 + span {
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.col-25 p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.col-25 > img {
+    position: absolute;
+    top: 370px;
+    left: 0;
+    z-index: 5;
+}
+
+.col-33 {
+    width: 33.333%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.col-50 h3 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.col-50 img {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.col-50 p {
+    margin: 0;
+}
+
+.col-50 a.link {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 28px;
+}
+
+.col-50 a.link:hover {
+    color: #68707B;
+}
+
+.col-50 div div {
+    padding-left: 140px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.rating h5 {
+	margin: 8px 0 2px 0;
+}
+
+.bar {
+    height: 15px;
+    border: 1px solid #323A45;
+    position: relative;
+}
+
+.bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    background: #fec9bc;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.bar span strong {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    height: 12px;
+    padding: 3px;
+    background: #fec9bc;
+    font-size: 11px;
+    display: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+	color: #323A45;
+}
+
+.bar span strong:after {
+    border-color: #fec9bc transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    bottom: -5px;
+    content: "";
+    display: block;
+    left: 12px;
+    position: absolute;
+    width: 0;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    background: #292F39;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+}
+
+form .error {
+    border: 1px solid #ff0000;
+    padding: 14px;
+}
+
+form label {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+form label.focus {
+    color: #606060;
+}
+
+form span {
+    color: #ff0000;
+    font-size: 11px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form div[class^='col-'] {
+    // what was this for?
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    font-family: 'Racing Sans One', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+    width: auto;
+}
+
+.btn-link:hover {
+    color: #68707b;
+    transition: all 0.4s ease 0s;
+}
+
+#about .row img {
+    width: 15%;
+}
+
+#about .row img.left {
+    margin: 0 5% 0 0;
+}
+
+#about .row img.right {
+    margin: 0 0 0 5%;
+}
+
+#about .row p {
+    margin: 0;
+    line-height: 24px;
+    color: #FEC9BC;
+    width: 80%;
+    float: left;
+}
+
+.col-50 ul {
+    padding: 0;
+}
+
+.col-50 ul li {
+    list-style: none;
+    padding-left: 25px;
+}
+
+#contact address {
+    margin-bottom: 40px;
+}
+
+#contact iframe {
+    display: block;
+    width: 100%;
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #292f39;
+    position: relative;
+    padding: 30px 0;
+}
+
+footer .row {
+    text-align: center;
+}
+
+footer .col-50,
+footer p {
+    text-align: center;
+    color: #68707B;
+    font-size: 11px;
+}
+
+footer .col-50 address {
+    padding-top: 55px;
+    background: none;
+}
+
+footer .col-50 div {
+    padding-top: 55px;
+    background: none;
+}
+
+footer .col-50 a {
+    display: block;
+    color: #68707B;
+}
+
+footer .col-50 a:hover {
+    color: #F95833;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    header .languages {
+        width: 456px;
+    }
+    header .languages .circle {
+        left: 0;
+        padding: 158px 68px 28px 68px;
+    }
+
+    .col-25 {
+        width: 50%;
+    }
+    .col-25.odd {
+        border: none;
+    }
+    .col-25 h3 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .col-33,
+    .col-100 {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    form label {
+        top: 25px;
+    }
+
+    form span {
+        bottom: -7px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    #contact iframe {
+        max-width: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    header .languages {
+        width: 712px;
+    }
+    .languages .circle {
+        padding: 118px 43px 18px 43px;
+    }
+
+    .col-25 {
+        width: 50%;
+    }
+    .col-25.odd {
+        border: none;
+    }
+
+    .col-33,
+    .col-100 {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    form label {
+        top: 25px;
+    }
+
+    form span {
+        bottom: -7px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    header .languages {
+        width: 792px;
+    }
+    .languages .circle {
+        padding: 143px 58px 23px 58px;
+    }
+
+    .col-25 h3 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+//font-family: 'Racing Sans One', cursive;
